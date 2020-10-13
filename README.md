@@ -10,9 +10,9 @@ The bot takes care of the signup process, DM's a link to the signup/login page, 
 
 ✖ Multi-language support (player's/gamemaaster's page)
 
-✖ Simple session signup
+✔ Simple session signup
 
-✖ Serve page
+✖ Serve page 
 
 ✖ Player's page
 
