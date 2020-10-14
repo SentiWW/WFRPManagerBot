@@ -8,7 +8,7 @@ The bot takes care of the signup process, DM's a link to the signup/login page, 
 
 ✔ Multi-language support (bot)
 
-✖ Multi-language support (player's/gamemaaster's page)
+✖ Multi-language support (player's/gamemaster's page)
 
 ✔ Simple session signup
 
