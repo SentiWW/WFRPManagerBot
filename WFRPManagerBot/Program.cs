@@ -27,6 +27,7 @@ namespace WFRPManagerBot
             await _handler.InitializeAsync(_client);
             await Task.Delay(-1);
         }
-        private async Task Log(LogMessage msg) => Console.WriteLine(msg.Message);
+
+        private async Task Log(LogMessage msg) => await Task.Run(() => Console.WriteLine(msg.Message));
     }
 }
