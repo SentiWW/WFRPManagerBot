@@ -22,7 +22,7 @@ namespace WFRPManagerBot.Core {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class CommandsStrings {
+    public class CommandsStrings {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace WFRPManagerBot.Core {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("WFRPManagerBot.Core.CommandsStrings", typeof(CommandsStrings).Assembly);
@@ -51,7 +51,7 @@ namespace WFRPManagerBot.Core {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,18 +63,63 @@ namespace WFRPManagerBot.Core {
         /// <summary>
         ///   Looks up a localized string similar to Help.
         /// </summary>
-        internal static string Help {
+        public static string Help {
             get {
                 return ResourceManager.GetString("Help", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Gamemaster link to the session:.
+        /// </summary>
+        public static string LinkToSessionGameMaster {
+            get {
+                return ResourceManager.GetString("LinkToSessionGameMaster", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Link to the session:.
+        /// </summary>
+        public static string LinkToSessionPlayer {
+            get {
+                return ResourceManager.GetString("LinkToSessionPlayer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You don&apos;t have a session signup started! Start one with the &apos;session signup&apos; command..
+        /// </summary>
+        public static string SessionSignupNotStarted {
+            get {
+                return ResourceManager.GetString("SessionSignupNotStarted", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You already have a singup started! Start the session with the &apos;session start&apos; command..
+        /// </summary>
+        public static string SessionSignupStarted {
+            get {
+                return ResourceManager.GetString("SessionSignupStarted", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to wants to start a session!.
         /// </summary>
-        internal static string WantsToStart {
+        public static string WantsToStart {
             get {
                 return ResourceManager.GetString("WantsToStart", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Once the session starts, everyone who signed up will get a link to it..
+        /// </summary>
+        public static string WantsToStartDescription {
+            get {
+                return ResourceManager.GetString("WantsToStartDescription", resourceCulture);
             }
         }
     }

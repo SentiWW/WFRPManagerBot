@@ -18,12 +18,15 @@ namespace WFRPManagerBot
 
         static Config()
         {
+            //  Build directory
             if (!Directory.Exists(configFolder)) Directory.CreateDirectory(configFolder);
 
+            //  Build config file
             if (!File.Exists(path))
             {
                 bot = new BotConfig();
 
+                //  Serialize to XML
                 var xmlSerializer = new XmlSerializer(typeof(BotConfig));
                 var file = File.Create(path);
                 xmlSerializer.Serialize(file, bot);
@@ -31,6 +34,7 @@ namespace WFRPManagerBot
             }
             else
             {
+                //  Deserialize from XML
                 var xmlSerializer = new XmlSerializer(typeof(BotConfig));
                 using(Stream reader = new FileStream(path, FileMode.Open))
                 {
