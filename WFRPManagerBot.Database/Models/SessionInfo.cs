@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WFRPManagerBot.Database
+namespace WFRPManagerBot.Web.Models
 {
-    public class Class1
+    public class SessionInfo
     {
+        public string Name { get; set; }
     }
 }
