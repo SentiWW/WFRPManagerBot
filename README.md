@@ -6,13 +6,27 @@ The bot takes care of the signup process, DM's a link to the signup/login page, 
 
 # Features
 
-✔ Multi-language support (bot)
+### Bot
 
-✖ Multi-language support (player's/gamemaster's page)
+✔ Multi-language support
 
 ✔ Simple session signup
 
-✖ Serve page
+✖ Direct message page to those who signed up
+
+✖ Export cards
+
+✖ Export session details
+
+### Website
+
+✖ Dynamic
+
+✖ Responsive
+
+✖ Multi-language support
+
+✔ Log in with Discord
 
 ✔ Discord OAuth2
 
