@@ -12,11 +12,9 @@ The bot takes care of the signup process, DM's a link to the signup/login page, 
 
 ✔ Simple session signup
 
-✖ Serve page 
+✖ Serve page
 
-✖ Player's page
-
-✖ Gamemaster's page
+✔ Discord OAuth2
 
 ✖ Cards stored in a database
 
