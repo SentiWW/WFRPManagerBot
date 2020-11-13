@@ -9,5 +9,7 @@ namespace WFRPManagerBot.Web.Models
     public class SessionInfo
     {
         public string Name { get; set; }
+
+        public SessionInfo() { }
     }
 }

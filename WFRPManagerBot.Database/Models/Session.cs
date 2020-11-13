@@ -11,5 +11,7 @@ namespace WFRPManagerBot.Web.Models
         public string Name { get; set; }
         public ulong GamemasterId { get; set; }
         public uint NumberOfPlayers { get; set; }
+
+        public Session() { }
     }
 }

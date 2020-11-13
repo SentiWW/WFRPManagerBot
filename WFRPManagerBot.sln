@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFRPManagerBot.Bot", "WFRPM
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WFRPManagerBot.Web", "WFRPManagerBot.Web\WFRPManagerBot.Web.csproj", "{6436FCEA-A947-404D-BD50-2AAE1CB7A56D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFRPManagerBot.Database", "WFRPManagerBot.Database\WFRPManagerBot.Database.csproj", "{C8028D4C-A97F-41AE-907D-91F9A38D6A6C}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{6436FCEA-A947-404D-BD50-2AAE1CB7A56D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6436FCEA-A947-404D-BD50-2AAE1CB7A56D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6436FCEA-A947-404D-BD50-2AAE1CB7A56D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C8028D4C-A97F-41AE-907D-91F9A38D6A6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C8028D4C-A97F-41AE-907D-91F9A38D6A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C8028D4C-A97F-41AE-907D-91F9A38D6A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C8028D4C-A97F-41AE-907D-91F9A38D6A6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

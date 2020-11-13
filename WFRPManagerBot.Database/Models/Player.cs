@@ -13,6 +13,7 @@ namespace WFRPManagerBot.Web.Models
         public string Username { get; set; }
         public string Locale { get; set; }
 
+        public Player() {}
         public Player(ulong Id, string Username, string Locale)
         {
             this.Id = Id;
