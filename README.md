@@ -12,7 +12,7 @@ The bot takes care of the signup process, DM's a link to the signup/login page, 
 
 ✔ Simple session signup
 
-✖ Direct message page to those who signed up
+✖ Direct message website link to those who signed up
 
 ✖ Export cards
 
