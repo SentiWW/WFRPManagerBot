@@ -12,20 +12,19 @@
 <div>
     @if (!User.Identity.IsAuthenticated)
     {
-
         <a asp-action="Login" asp-controller="Auth" class="btn btn-outline-primary">Log In with Discord</a>
-
     }
     else
     {
         <p>
             Zalogowano, dane (ciasteczko z danymi utworzone):
         </p>
-        foreach (var c in Model.User.Claims)
+        foreach (var c in User.Claims)
         {
             <p>
                 @c.Value;
             </p>
         }
+
     }
 </div>

@@ -51,6 +51,7 @@ namespace WFRPManagerBot.Web
                     options.SaveTokens = true;
                     options.ClaimActions.MapJsonKey(ClaimTypes.NameIdentifier, "id");
                     options.ClaimActions.MapJsonKey(ClaimTypes.Name, "username");
+                    options.ClaimActions.MapJsonKey(ClaimTypes.Locality, "locale");
                     options.Events = new OAuthEvents
                     {
                         OnCreatingTicket = async context =>
