@@ -103,16 +103,13 @@
   <data name="WantsToStart" xml:space="preserve">
     <value>wants to start a session!</value>
   </data>
-  <data name="LinkToSessionGameMaster" xml:space="preserve">
-    <value>Gamemaster link to the session:</value>
-  </data>
   <data name="SessionSignupNotStarted" xml:space="preserve">
     <value>You don't have a session signup started! Start one with the 'session signup' command.</value>
   </data>
   <data name="SessionSignupStarted" xml:space="preserve">
     <value>You already have a singup started! Start the session with the 'session start' command.</value>
   </data>
-  <data name="LinkToSessionPlayer" xml:space="preserve">
+  <data name="LinkToSession" xml:space="preserve">
     <value>Link to the session:</value>
   </data>
   <data name="WantsToStartDescription" xml:space="preserve">

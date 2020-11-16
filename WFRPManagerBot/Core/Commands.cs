@@ -55,15 +55,9 @@ namespace WFRPManagerBot.Core
                 //  Get all users who reacted with ✅ from signup embed
                 await SessionInfo.activeSignups[Context.User].GetReactionUsersAsync(new Emoji("✅"), 64).ForEachAsync(userCollection =>
                 {
-                    //  Send gamemaster's page to user who started the session
-                    Context.User.SendMessageAsync(string.Format("{0} {1}", CommandsStrings.LinkToSessionGameMaster, "gamemaster link placeholder"));
-                    
+                    //  Placeholder message with link
                     foreach (var user in userCollection)
-                    {
-                        //  If user isn't a bot and isn't the session starter, send players page
-                        if (!user.IsBot && user.Id != Context.User.Id)
-                            user.SendMessageAsync(string.Format("{0} {1} {2}", CommandsStrings.LinkToSessionPlayer, Context.User, "player link placeholder"));
-                    }
+                            user.SendMessageAsync(string.Format("{0} {1} {2}", CommandsStrings.LinkToSession, Context.User, @"https://localhost:5001/"));
                 });
                 //  Remove this signup from collection of active signups
                 SessionInfo.activeSignups.Remove(Context.User);

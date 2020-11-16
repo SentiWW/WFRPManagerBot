@@ -70,20 +70,11 @@ namespace WFRPManagerBot.Core {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Gamemaster link to the session:.
-        /// </summary>
-        public static string LinkToSessionGameMaster {
-            get {
-                return ResourceManager.GetString("LinkToSessionGameMaster", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Link to the session:.
         /// </summary>
-        public static string LinkToSessionPlayer {
+        public static string LinkToSession {
             get {
-                return ResourceManager.GetString("LinkToSessionPlayer", resourceCulture);
+                return ResourceManager.GetString("LinkToSession", resourceCulture);
             }
         }
         
